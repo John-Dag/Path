@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="20" height="20" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="tiles2" tilewidth="64" tileheight="34">
+  <image source="tiles2.png" width="523" height="406"/>
+ </tileset>
+ <tileset firstgid="89" name="tiles2" tilewidth="64" tileheight="32">
+  <image source="tiles2.png" trans="000000" width="523" height="406"/>
+  <tile id="30">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyLZ2BgiB/Fo3gUj+JRPIpJxAAoX5Rx
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwrZ2BgKKcyJgagq8OmjxzzcNGkmIesjlrmEXInvczDFc7D0Txc4TlczUOXp5Z5+OwgJz1jCwdKzEOWw2U2ufmN2uZhMx/dHGqYh0uO2hgAJfFKYQ==
+  </data>
+ </layer>
+</map>
